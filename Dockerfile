@@ -1,3 +1,4 @@
 FROM alpine
+ARG TEST=default
 RUN mkdir /app
-RUN echo /
+RUN echo $TEST
